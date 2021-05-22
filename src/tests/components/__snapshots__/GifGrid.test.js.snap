@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests into GifGrid.js should match the snapshot 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__bounce"
+  >
+    One Piece
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Tests into GifGrid.js should show items when useFetchGifs load images 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__bounce"
+  >
+    One Piece
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC123"
+      key="ABC123"
+      title="Culaquier cosa"
+      url="https://localhost/cualquiercosa.jpg"
+    />
+  </div>
+</Fragment>
+`;
