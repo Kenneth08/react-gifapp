@@ -14,7 +14,7 @@ export const useFetchGifs = (category) => {
           data: imgs,
           loading: false,
         });
-      }, 2000);
+      });
     });
   }, [category]);
 

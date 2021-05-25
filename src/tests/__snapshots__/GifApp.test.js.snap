@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests into GifApp.js should match with the snapshoot 1`] = `
+<Fragment>
+  <h2>
+    GifApp 
+    <span
+      className="by"
+    >
+      by Murcast
+    </span>
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
+
+exports[`Tests into GifApp.js should shown an array of categories 1`] = `
+<Fragment>
+  <h2>
+    GifApp 
+    <span
+      className="by"
+    >
+      by Murcast
+    </span>
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="One Punch Man"
+      key="One Punch Man"
+    />
+    <GifGrid
+      category="One Piece"
+      key="One Piece"
+    />
+  </ol>
+</Fragment>
+`;

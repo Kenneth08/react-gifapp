@@ -2,8 +2,8 @@ import { useState } from "react";
 import { AddCategory } from "./components/AddCategory";
 import { GifGrid } from "./components/GifGrid";
 
-const GifApp = () => {
-  const [categories, setCategories] = useState(["One Punch Man"]);
+const GifApp = ({ defaultCategories = [] }) => {
+  const [categories, setCategories] = useState(defaultCategories);
 
   return (
     <>
